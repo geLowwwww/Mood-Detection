@@ -12,7 +12,7 @@ This assignment of mood detection using facial expression recognition, aims to d
 
 2. **ROI Extraction:** For each detected face, a region of interest (ROI) is extracted from the frame. The ROI corresponds to the face region, which is obtained by cropping the frame based on the coordinates and dimensions of the detected face.
 
-3. **Emotion Analysis:** DeepFace, a deep learning-based facial analysis library, is employed to analyze the ROI and predict the dominant emotion. The DeepFace.analyze method is used to perform emotion analysis on the face ROI, and the result includes information about the dominant emotion.
+3. **Emotion Analysis:** The DeepFace.analyze method is used to perform emotion analysis on the face ROI, and the result includes information about the dominant emotion.
 
 4. **Visualization:** The program draws rectangles around the detected faces using cv2.rectangle and labels them with the predicted emotions using cv2.putText. This visual representation helps to highlight the detected faces and provide a visual indication of the predicted emotions.
 
@@ -25,6 +25,8 @@ This assignment of mood detection using facial expression recognition, aims to d
 2. **OpenCV:** a popular computer vision library that provides various image and video processing functions.
 
 3. **Numpy:** a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and a collection of mathematical functions to operate on these arrays.
+
+4. **DeepFace:** a deep learning-based facial analysis library, is employed to analyze the ROI and predict the dominant emotion. 
 
 # **Output**
 ![image](https://github.com/geLowwwww/Mood-Detection/assets/166739481/6f0c0688-dd7f-437d-84ee-2d8889a56ca8)
